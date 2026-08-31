@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '40912399843'))
 API_HASH = environ.get('API_HASH', 'ff40912399843f7b20f944bee940463e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8885501946:AAE0gVnIP7j0BzG_fInwscgQusKhKjHLVoI')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8669258217:AAHWGUbKwKXDwKn7U8sASuDDzZh57O5mu8Y')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8306405230').split()]
@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+sGOpAlm-4Lc1Yz
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1004480503690').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Mostakim:mostakim@mostakim.7uloytd.mongodb.net/?appName=Mostakim")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mostakim0007700_db_user:Tc0OvGxTUfRBhHUo@cluster0.wmb3ljz.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Mostakim")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
